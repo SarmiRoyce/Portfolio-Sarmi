@@ -1,0 +1,136 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav li{
+    padding: 25px;
+    margin: 5px;
+}
+nav li a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    transition: 0.4s;
+}
+nav li :hover{
+    color: black;
+    transform: scale(1);
+    background-color: blanchedalmond;
+    padding: 10px;
+    font-size: large;
+}
+img{
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    margin: auto;
+    margin-left: 20px;
+}
+.img1{
+    padding: 20px;
+    font-size: x-large;
+}
+.home{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    padding: 182px; 
+    background-color: white;
+}
+.home-content{
+    max-width: 600px;
+}
+.home-content h3{
+    font-size: 60px;
+    font-weight: 600;
+}
+.home-content h1{
+    font-size: 70px;
+    font-weight: 600;
+    margin: -3px 0;
+}
+.home-content p{
+    font-size: 40px;
+}
+.home-sci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background: transparent
+    border: 2px transparent;
+    border-radius: 50%;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    margin: 15px 25px 60px 0;
+}
+.home-sci a:hover{
+    background: white;
+    color:black;
+    box-shadow: 0 0 20px black;
+}
+.btn-box{
+    display: inline-block;
+    padding: 12px 40px;
+    background: orangered;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 400;
+}
+.btn-box:hover {
+    box-shadow: 0 0 5px orange,
+    0 0 25px orange, 0 0 50px orange,
+    0 0 100px orange, 0 0 200px orange
+}
+section{
+    padding:0 30%;
+}
+.home{
+    position: relative;
+    width:80%;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.girl-img{
+    width: 800px;
+    height: 800px;
+}
+.girl-img img{
+    width: 65%;
+    height: 65%;
+    object-fit: contain;
+    font-size: larger;
+}
+ul {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    text-decoration: none;
+    justify-content: space-between;
+}
