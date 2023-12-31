@@ -35,28 +35,28 @@ nav li :hover{
     font-size: large;
 }
 img{
-    width: 60px;
-    height: 60px;
-    padding: 10px;
+    width: 50px;
+    height: 50px;
+    padding: 3px;
     margin: auto;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .img1{
-    padding: 20px;
-    font-size: x-large;
+    padding: 3px;
+    font-size: larger;
 }
 .home{
     position: relative;
-    width: 100%;
+    width: 70%;
     justify-content: space-between;
-    height: 90vh;
+    height: 60vh;
     background-size: cover;
     background-position: center;
     padding: 182px; 
     background-color: white;
 }
 .home-content{
-    max-width: 600px;
+    max-width: 400px;
 }
 .home-content h3{
     font-size: 60px;
@@ -78,11 +78,11 @@ img{
     height: 60px;
     background: transparent
     border: 2px transparent;
-    border-radius: 50%;
+    border-radius: 60%;
     font-size: 30px;
     color: black;
     text-decoration: none;
-    margin: 15px 25px 60px 0;
+    margin: 15px 35px 80px 0;
 }
 .home-sci a:hover{
     background: white;
@@ -118,8 +118,8 @@ section{
     gap: 30px;
 }
 .girl-img{
-    width: 800px;
-    height: 800px;
+    width: 700px;
+    height: 700px;
 }
 .girl-img img{
     width: 65%;
