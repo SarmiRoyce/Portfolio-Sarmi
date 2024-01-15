@@ -147,8 +147,3 @@ ul {
     text-decoration: none;
     color: rgb(39, 116, 183);
 }
-@media (width < 750px){
-    nav.checkbox{
-        display:block;
-    }
-}
