@@ -43,6 +43,7 @@ img{
 .img1{
     display: flex;
     justify-content: center;
+    font-weight: bold;
 }
 .img2{
     margin-top: 15px;
@@ -96,7 +97,7 @@ section{
     padding:0 30%;
 }
 h3{
-    font-size: 20px;
+    font-size: 23px;
 }
 h1{
     font-size: 28px;
@@ -106,6 +107,7 @@ span{
 }
 .para{
     font-size: 20px;
+    font-weight: bold;
 }
 .home{
     position: relative;
