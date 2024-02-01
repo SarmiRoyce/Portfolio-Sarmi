@@ -4,8 +4,14 @@
     }
 }
 body{
-    background-color: gainsboro;
+    /* background-color: gainsboro; */
     font-family: 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+    /* scroll-behavior: smooth; */
 }
 nav{
     display: flex;
@@ -15,6 +21,7 @@ nav{
 nav ul{
     display: flex;
     list-style: none;
+    font-size: 30px;
 }
 nav li{
     padding: 25px;
@@ -29,31 +36,41 @@ nav li a{
 nav li :hover{
     color: black;
     transform: scale(1);
-    background-color: blanchedalmond;
-    padding: 10px;
+    background-color: lightcoral;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
     font-size: larger;
 }
 img{
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     padding: 3px;
     margin: auto;
     margin-left: 10px;
+}
+.footer{
+    background-color: lightgray;
+    height: 335px;
 }
 .img1{
     display: flex;
     justify-content: center;
     font-weight: bold;
+    font-size: 26px;
+    padding: 15px;
 }
 .img2{
-    margin-top: 15px;
+    margin-top: 20px;
 }
 .img3{
     margin-top: 35px;
+    font-size: 26px;
 }
 .home{
-    position: relative;
-    justify-content: space-between;
+    width: 100%;
+    /* position: relative;
+    justify-content: space-between; */
     background-size: cover;
     background-position: center;
     background-color: white;
@@ -64,10 +81,10 @@ img{
     align-items: center;
     width: 60px;
     height: 60px;
-    background: transparent
+    background: transparent;
     border: 2px transparent;
     border-radius: 60%;
-    font-size: 30px;
+    font-size: 40px;
     color: black;
     text-decoration: none;
     margin: 10px 20px 50px 0;
@@ -81,8 +98,8 @@ img{
     display: inline-block;
     padding: 12px 40px;
     background: orangered;
-    border-radius: 5px;
-    font-size: 20px;
+    border-radius: 10px;
+    font-size: 35px;
     color: white;
     letter-spacing: 1px;
     text-decoration: none;
@@ -94,35 +111,40 @@ img{
     0 0 100px orange, 0 0 200px orange
 }
 section{
-    padding:0 30%;
+    /* padding:0 30%; */
+    margin-left: 20px;
 }
-h3{
-    font-size: 23px;
+.header1{
+    font-size: 32px;
 }
-h1{
-    font-size: 28px;
+.header2{
+    font-size: 45px;
+    color: orangered;
+}
+.header3{
+    font-size: 66px;
 }
 span{
     color: orangered;
 }
 .para{
-    font-size: 20px;
+    font-size: 40px;
     font-weight: bold;
 }
 .home{
     position: relative;
-    height:500px;
+    height:900px;
     display:flex;
     align-items: center;
-    justify-content: space-between;
 }
 .girl-img{
-    width: 700px;
-    height: 700px;
+    width: 800px;
+    height: 800px;
+    margin-left: 400px;
 }
 .girl-img img{
-    width: 300px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
     object-fit: contain;
     font-size: larger;
     margin-top: 80px;
@@ -130,23 +152,22 @@ span{
 ul {
     display: flex;
     list-style: none;
-    font-size: 18px;
+    font-size: 30px;
     font-weight: bold;
     text-decoration: none;
     justify-content: space-between;
+    color: blanchedalmond;
 }
 .home-sci1{
-    text-align: center;
-}
-.home.content{
-    margin-top: 0;
+   font-size: 30px;
+    margin-left: 180px;
+    padding: 30px;
 }
 .home-sci{
     display: flex;
     justify-content: center;
-    font-size: 30px;
+    font-size: 40px;
     color: black;
-    margin-left: 74px;
 }
 .under{
     text-align: center;
@@ -162,10 +183,10 @@ ul {
     text-decoration: none;
     color: black;
 }
-.sarmi{
+/* .sarmi{
     text-decoration: none;
     color: rgb(39, 116, 183);
-}
+} */
 /* @media (max-width:820px){
     .home.content{
         display: block;

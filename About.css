@@ -4,8 +4,14 @@
     }
 }
 body{
-    background-color: gainsboro;
+    /* background-color: gainsboro; */
     font-family: 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+    /* scroll-behavior: smooth; */
 }
 nav{
     display: flex;
@@ -13,7 +19,7 @@ nav{
     background-color:white;
 }
 nav li{
-    padding: 10px;
+    padding: 25px;
     margin: 10px;
 }
 nav li a{
@@ -25,52 +31,54 @@ nav li a{
 nav li :hover{
     color: black;
     transform: scale(1);
-    background-color: blanchedalmond;
-    padding: 10px;
-    font-size: large;
+    background-color: lightcoral;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: larger;
 }
 img{
-    width: 50px;
-    height: 50px;
-    padding: 3px;
-    margin: auto;
-    margin-left: 10px;
+    width: 70px;
+    height: 70px;
+    margin-left: 30px;
 }
 .img1{
     display: flex;
     justify-content: center;
+    padding: 10px;
+    font-size: 26px;
+    font-weight: bold;
+    height: 120px;
 }
-.img2{
-    margin-top: 15px;
+.footer{
+    background-color: lightgray;
 }
 .img3{
-    margin-top: 35px;
-}
-.about{
-    height: 60%;
-    background-color: white;
+    margin-top: 30px;
+    font-size: 26px;
 }
 .girl-img{
-    width: 500px;
-    height: 500px;
+    width: 1170px;
+    height: 980px;
+    padding: 160px;
 }
 .girl-img img{
-    width: 80%;
-    height: 80%;
+    width: 550px;
+    height: 550px;
     object-fit: contain;
-    font-size: larger;
 }
 .home-sci a:hover{
     background: white;
     color:black;
+    border-radius: 50px;
     box-shadow: 0 0 20px black;
 }
 .btn-box{
     display: inline-block;
     padding: 12px 40px;
     background: orangered;
-    border-radius: 5px;
-    font-size: 20px;
+    border-radius: 10px;
+    font-size: 35px;
     color: white;
     letter-spacing: 1px;
     text-decoration: none;
@@ -81,21 +89,11 @@ img{
     0 0 25px orange, 0 0 50px orange,
     0 0 100px orange, 0 0 200px orange
 }
-section{
-    padding: 0 220px;
-    height: 10px;
-}ul {
-    display: flex;
-    list-style: none;
-    font-weight: bold;
-    font-size: 18px;
-    text-decoration: none;
-    justify-content: space-between;
-}
 .top{
     display: flex;
     list-style: none;
     font-weight: bold;
+    font-size: 35px;
     text-decoration: none;
     justify-content: space-between;
 }
@@ -103,6 +101,9 @@ section{
    display: flex;
    justify-content: center;
    list-style: none;
+   font-size: 35px;
+   height: 80px;
+   font-weight: bold;
 }
 .s{
     text-decoration: none;
@@ -111,32 +112,30 @@ section{
 .home-sci{
     display: flex;
     justify-content: center;
-    font-size: 30px;
+    font-size: 45px;
     color: black;
     margin-left: 74px;
+    /* height: 60px; */
 }
 .full{
     display: flex;
 }
 p{
-    font-size: 20px;
+    font-size: 36px;
     font-weight: bold;
 }
 span{
     color: orangered;
 }
 h1{
-    font-size: 37px;
+    font-size: 50px;
 }
-.about.text{
-    margin-left: 100px;
-}
-.under{
+/* .under{
     text-align: center;
     background-color: rgb(75, 73, 73);
     color: beige;
-}
-.sarmi{
+} */
+/* .sarmi{
     text-decoration: none;
     color: rgb(39, 116, 183);
-}
+} */
