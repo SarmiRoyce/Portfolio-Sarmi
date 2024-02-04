@@ -66,36 +66,28 @@ nav li :hover{
     margin-top: 20px;
     font-size: 24px;
 }
-.images{
-    display: flex;
-}
 .footer{
     background-color: lightgray;
     height: 250px;
 }
+.images{
+    display: flex;
+    margin-top: 40px;
+}
 .img6{
     width: 300px;
     height: 300px;
-    padding: 30px;
+    padding: 20px;
     margin: auto;
-    margin-left: 2px;
+    margin-left: 5px;
     display: flex;
-    border-radius: 25px;
 } 
-.img5{
-    width: 100px;
-    height: 100px;
-    padding: 30px;
-    margin: auto;
-    margin-left: 2px;
-    display: flex;
-}
 .img4{
-    width: 100px;
-    height: 100px;
-    padding: 30px;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
     margin: auto;
-    margin-left: 2px;
+    margin-left: 5px;
     display: flex;
 } 
 .home-sci a{
@@ -148,7 +140,7 @@ h1{
     font-size: 60px;
 }
 p{
-    font-size: 33px;
+    font-size: 30px;
 }
 .s{
     text-decoration: none;

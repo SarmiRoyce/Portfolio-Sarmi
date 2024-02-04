@@ -6,32 +6,28 @@
 *{
     margin: 0;
     box-sizing: border-box;
-    /* scroll-behavior: smooth; */
 }
 body{
-    /* background-color: gainsboro; */
     font-family: 'Poppins', sans-serif;
 }
 .Contact{
-    /* background-color: white; */
-    padding: 120px 650px;
-    height: 1200px;
-    font-size: 38px;
+    padding: 80px 450px;
+    height: 800px;
+    font-size: 30px;
 }
 nav{
     display: flex;
     justify-content: space-between;
     background-color:white;
-    /* font-size: 25px; */
 }
 nav ul{
     display: flex;
     list-style: none;
-    font-size: 35px;
+    font-size: 28px;
 }
 nav li{
-    padding: 25px;
-    margin: 15px;
+    padding: 20px;
+    margin: 10px;
 }
 nav li a{
     text-decoration: none;
@@ -44,49 +40,46 @@ nav li :hover{
     transform: scale(1);
     background-color: lightcoral;
     color: white;
-    padding: 15px;
+    padding: 10px;
     border-radius: 10px;
     font-size: larger;
 }
 img{
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     padding: 5px;
-    margin-left: 15px;
+    margin-left: 10px;
 }
 .footer{
     background-color: lightgray;
-    margin-left: -820px;
-    margin-right: -820px;
-    /* height: 335px; */
 }
 .img1{
     display: flex;
     justify-content: center;
     font-weight: bold;
-    font-size: 26px;
-    padding: 15px;
+    font-size: 24px;
+    padding: 10px;
 }
 .img2{
-    margin-top: 20px;
+    margin-top: 15px;
 }
 .img3{
-    margin-top: 35px;
-    font-size: 26px;
+    margin-top: 40px;
+    font-size: 24px;
 }
 .home-sci a{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     background: transparent;
     border: 2px transparent;
     border-radius: 60%;
     font-size: 40px;
     color: black;
     text-decoration: none;
-    margin: 40px 40px;
+    margin: 20px 40px;
 }
 .home-sci a:hover{
     background: white;
@@ -94,14 +87,14 @@ img{
     box-shadow: 0 0 20px black;
 }
 input{
-    font-size: 40px;
+    font-size: 35px;
 }
 span{
     color: orangered;
 }
 .btn-box {
     display: inline-block;
-    padding: 12px 40px;
+    padding: 10px 30px;
     background: orangered;
     border-radius: 10px;
     font-size: 35px;
@@ -114,9 +107,6 @@ span{
     0 0 25px orange, 0 0 50px orange,
     0 0 100px orange, 0 0 200px orange
 }
-section{
-    padding:0 30%;
-}
 ul {
     display: flex;
     list-style: none;
@@ -127,7 +117,7 @@ ul {
 .s{
     text-decoration: none;
     color: black;
-    font-size: 35px;
+    font-size: 28px;
 }
 .home-sci{
     display: flex;
@@ -136,14 +126,6 @@ ul {
     color: black;
     margin-left: 74px;
 }
-/* .under{
-    text-align: center;
-    background-color: rgb(75, 73, 73);
-    color: beige;
-} */
-/* .sarmi{
-    text-decoration: none;
-    color: rgb(39, 116, 183);
-} */
+
 
 
