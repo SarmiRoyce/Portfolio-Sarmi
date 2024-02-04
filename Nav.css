@@ -4,28 +4,27 @@
     }
 }
 body{
-    /* background-color: gainsboro; */
     font-family: 'Poppins', sans-serif;
 }
 *{
     margin: 0;
-    /* padding: 0; */
     box-sizing: border-box;
-    /* scroll-behavior: smooth; */
 }
 nav{
     display: flex;
     justify-content: space-between;
     background-color:white;
 }
-nav ul{
+.top{
     display: flex;
     list-style: none;
-    font-size: 30px;
+    font-size: 25px;
+    text-decoration: none;
+    justify-content: space-between;
 }
 nav li{
-    padding: 25px;
-    margin: 5px;
+    padding: 20px;
+    margin: 10px;
 }
 nav li a{
     text-decoration: none;
@@ -38,56 +37,58 @@ nav li :hover{
     transform: scale(1);
     background-color: lightcoral;
     color: white;
-    padding: 15px;
+    padding: 10px;
     border-radius: 10px;
     font-size: larger;
 }
 img{
-    width: 70px;
-    height: 70px;
-    padding: 3px;
-    margin: auto;
-    margin-left: 10px;
+    width: 50px;
+    height: 50px;
 }
+/* .logo{
+    width: 100%;
+} */
 .footer{
     background-color: lightgray;
-    height: 335px;
+    width: 100%;
 }
 .img1{
     display: flex;
     justify-content: center;
     font-weight: bold;
-    font-size: 26px;
-    padding: 15px;
+    font-size: 20px;
+    padding: 10px;
 }
 .img2{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .img3{
     margin-top: 35px;
-    font-size: 26px;
+    font-size: 20px;
+}
+.home.content{
+    width: 100%;
 }
 .home{
+    position: relative;
+    height: 600px;
+    display:flex;
     width: 100%;
-    /* position: relative;
-    justify-content: space-between; */
-    background-size: cover;
-    background-position: center;
-    background-color: white;
+    align-items: center;    
+    margin-left: 100px;
 }
 .home-sci a{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 60px;
-    height: 60px;
-    background: transparent;
+    width: 70px;
+    height: 70px;
+    /* background: transparent; */
     border: 2px transparent;
-    border-radius: 60%;
-    font-size: 40px;
+    border-radius: 50%;
+    font-size: 35px;
     color: black;
     text-decoration: none;
-    margin: 10px 20px 50px 0;
 }
 .home-sci a:hover{
     background: white;
@@ -96,63 +97,54 @@ img{
 }
 .btn-box{
     display: inline-block;
-    padding: 12px 40px;
+    padding: 10px 60px;
     background: orangered;
     border-radius: 10px;
-    font-size: 35px;
+    font-size: 30px;
     color: white;
+    margin-left: 120px;
     letter-spacing: 1px;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bolder;
 }
 .btn-box:hover {
     box-shadow: 0 0 5px orange,
     0 0 25px orange, 0 0 50px orange,
     0 0 100px orange, 0 0 200px orange
 }
-section{
-    /* padding:0 30%; */
-    margin-left: 20px;
-}
 .header1{
-    font-size: 32px;
+    font-size: 24px;
 }
 .header2{
-    font-size: 45px;
+    font-size: 32px;
     color: orangered;
 }
 .header3{
-    font-size: 66px;
+    font-size: 40px;
 }
 span{
     color: orangered;
 }
 .para{
-    font-size: 40px;
+    font-size: 28px;
     font-weight: bold;
 }
-.home{
-    position: relative;
-    height:900px;
-    display:flex;
-    align-items: center;
-}
 .girl-img{
-    width: 800px;
-    height: 800px;
-    margin-left: 400px;
+    width: 750px;
+    height: 750px;
+    margin-left: 350px;
 }
 .girl-img img{
-    width: 600px;
-    height: 600px;
+    width: 540px;
+    height: 540px;
     object-fit: contain;
     font-size: larger;
-    margin-top: 80px;
+    margin-top: 30px;
 }
 ul {
     display: flex;
     list-style: none;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     text-decoration: none;
     justify-content: space-between;
@@ -160,24 +152,24 @@ ul {
 }
 .home-sci1{
    font-size: 30px;
-    margin-left: 180px;
-    padding: 30px;
+    margin-left: 160px;
 }
 .home-sci{
     display: flex;
     justify-content: center;
-    font-size: 40px;
+    font-size: 50px;
     color: black;
 }
-.under{
+/* .under{
     text-align: center;
     background-color: rgb(75, 73, 73);
     color: beige; 
-}
+} */
 .align{
     display: flex;
     justify-content: center;
     list-style: none;
+    padding: 10px;
  }
  .s{
     text-decoration: none;

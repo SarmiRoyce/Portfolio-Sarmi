@@ -56,7 +56,8 @@ img{
 }
 .footer{
     background-color: lightgray;
-    margin-left: -800px;
+    margin-left: -820px;
+    margin-right: -820px;
     /* height: 335px; */
 }
 .img1{
